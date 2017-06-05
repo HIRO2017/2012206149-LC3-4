@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace _2012206149.ENT.Entidades
 {
     public class Administrativo
-    {
+    { 
         public int adminId { get; set; }
+        public string nombre { get; set; }
     }
 }

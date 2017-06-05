@@ -30,7 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,8 +47,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="2012206149DbContext.cs" />
+    <Compile Include="EntityTypeConfigurations\AdministrativoConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\BusConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\ClienteConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\EmpleadoConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\LugarViajeConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\ServicioConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\TipoComprobanteConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\TipoLugarConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\TipoPagoConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\TipoTripulacionConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\TipoViajeConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\TransporteConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\TripulacionConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\VentaConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\2012206149.ENT\2012206149.ENT.csproj">
