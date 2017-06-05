@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2012206149.ENT.IRepositories
+namespace _2012206149.PER.Repositories
 {
-    public interface ITripulacionRepository : IRepository
+    class TipoTripulacionRepository
     {
     }
 }
