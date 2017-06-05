@@ -43,5 +43,11 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\2012206149.ENT\2012206149.ENT.csproj">
+      <Project>{d203770e-0b43-49d1-858e-77045a2fb79f}</Project>
+      <Name>2012206149.ENT</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

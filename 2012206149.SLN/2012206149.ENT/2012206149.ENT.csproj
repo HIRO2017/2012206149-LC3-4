@@ -40,8 +40,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Entities\Administrativo.cs" />
+    <Compile Include="Entities\Bus.cs" />
+    <Compile Include="Entities\Cliente.cs" />
+    <Compile Include="Entities\Empleado.cs" />
+    <Compile Include="Entities\Encomienda.cs" />
+    <Compile Include="Entities\LugarViaje.cs" />
+    <Compile Include="Entities\Servicio.cs" />
+    <Compile Include="Entities\TipoComprobante.cs" />
+    <Compile Include="Entities\TipoLugar.cs" />
+    <Compile Include="Entities\TipoPago.cs" />
+    <Compile Include="Entities\TipoViaje.cs" />
+    <Compile Include="Entities\TipoTripulacion.cs" />
+    <Compile Include="Entities\Transporte.cs" />
+    <Compile Include="Entities\Tripulacion.cs" />
+    <Compile Include="Entities\Venta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IRepositories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2012206149.ENT
+namespace _2012206149.ENT.Entidades
 {
-    public class Class1
+    public class Administrativo
     {
+        public int adminId { get; set; }
     }
 }
