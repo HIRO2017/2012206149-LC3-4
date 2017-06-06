@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2012206149.ENT.Entidades
+namespace _2012206149.ENT.Entities
 {
     public class Administrativo
-    { 
-        public int adminId { get; set; }
+    {
+        public int AdminId { get; set; }
         public string nombre { get; set; }
+        public string direccion { get; set; }
     }
 }

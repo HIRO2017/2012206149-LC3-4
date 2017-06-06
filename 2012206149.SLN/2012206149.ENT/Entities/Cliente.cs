@@ -9,5 +9,6 @@ namespace _2012206149.ENT.Entidades
     public class Cliente
     {
         public int clienteId { get; set; }
+        public string nombre { get; set; }
     }
 }

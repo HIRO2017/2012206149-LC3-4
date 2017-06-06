@@ -1,4 +1,5 @@
 ﻿using _2012206149.ENT.Entidades;
+using _2012206149.ENT.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;

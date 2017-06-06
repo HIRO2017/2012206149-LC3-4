@@ -102,5 +102,10 @@ namespace _2012206149.PER.Repositories
         {
             return Instance.saveChanges();
         }
+
+        public void StateModified(object entity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
