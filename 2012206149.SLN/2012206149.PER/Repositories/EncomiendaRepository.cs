@@ -10,5 +10,11 @@ namespace _2012206149.PER.Repositories
 {
     public class EncomiendaRepository : Repository<Encomienda>, IEncomiendaRepository
     {
+        private _2012206149Context _Context;
+
+        public EncomiendaRepository(_2012206149Context context)
+        {
+            _Context = context;
+        }
     }
 }

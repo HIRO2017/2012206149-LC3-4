@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="2012206149DbContext.cs" />
+    <Compile Include="2012206149Context.cs" />
     <Compile Include="EntityTypeConfigurations\AdministrativoConfiguration.cs" />
     <Compile Include="EntityTypeConfigurations\BusConfiguration.cs" />
     <Compile Include="EntityTypeConfigurations\ClienteConfiguration.cs" />
@@ -78,6 +78,7 @@
     <Compile Include="Repositories\TipoViajeRepository.cs" />
     <Compile Include="Repositories\TransporteRepository.cs" />
     <Compile Include="Repositories\TripulacionRepository.cs" />
+    <Compile Include="Repositories\UnityOfWork.cs" />
     <Compile Include="Repositories\VentaRepository.cs" />
   </ItemGroup>
   <ItemGroup>

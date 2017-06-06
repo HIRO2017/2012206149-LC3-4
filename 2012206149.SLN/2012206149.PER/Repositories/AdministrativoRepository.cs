@@ -8,7 +8,13 @@ using System.Threading.Tasks;
 
 namespace _2012206149.PER.Repositories
 {
-    public class AdministrativoRepository : Repository<Administrativo>, IAdministrativoRepository 
+    public class AdministrativoRepository : Repository<Administrativo>, IAdministrativoRepository
     {
+        private _2012206149Context _Context;
+
+        public AdministrativoRepository(_2012206149Context context)
+        {
+            _Context = context;
+        }
     }
 }

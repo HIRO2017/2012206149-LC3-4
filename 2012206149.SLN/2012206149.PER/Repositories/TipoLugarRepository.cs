@@ -10,5 +10,11 @@ namespace _2012206149.PER.Repositories
 {
     public class TipoLugarRepository : Repository<TipoLugar>, ITipoLugarRepository
     {
+        private _2012206149Context _Context;
+
+        public TipoLugarRepository(_2012206149Context context)
+        {
+            _Context = context;
+        }
     }
 }

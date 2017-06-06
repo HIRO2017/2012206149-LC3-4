@@ -10,5 +10,21 @@ namespace _2012206149.PER.Repositories
 {
     public class ServicioRepository : Repository<Servicio>, IServicioRepository
     {
+
+        private readonly _2012206149Context _Context;
+
+        public ServicioRepository(_2012206149Context context)
+        {
+            _Context = context;
+        }
+
+
+        private ServicioRepository()
+        {
+
+        }
+
+
+
     }
 }

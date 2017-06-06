@@ -10,5 +10,11 @@ namespace _2012206149.PER.Repositories
 {
     public class LugarViajeRepository : Repository<LugarViaje>, ILugarViajeRepository
     {
+        private _2012206149Context _Context;
+
+        public LugarViajeRepository(_2012206149Context context)
+        {
+            _Context = context;
+        }
     }
 }

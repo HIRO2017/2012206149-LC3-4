@@ -9,5 +9,10 @@ namespace _2012206149.ENT.IRepositories
 {
     public interface IClienteRepository : IRepository<Cliente>
     {
+        //registro
+        IEnumerable<Cliente> GetClienteWhit2012206149(int pageIndex, int pageSize);
+
+        //relacion de actor con el servicio obtenido
+        IEnumerable<Cliente> GetClienteClassification(Servicio servicio );
     }
 }
