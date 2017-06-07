@@ -8,5 +8,6 @@ namespace _2012206149.ENT.Entidades
 {
     public class TipoViaje
     {
+        public int tipoViajeId { get; set; }
     }
 }

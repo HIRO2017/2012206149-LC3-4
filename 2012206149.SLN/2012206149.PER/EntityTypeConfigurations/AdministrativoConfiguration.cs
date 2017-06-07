@@ -11,5 +11,15 @@ namespace _2012206149.PER.EntityTypeConfigurations
 {
     public class AdministrativoConfiguration : EntityTypeConfiguration<Administrativo>
     {
+
+        public AdministrativoConfiguration()
+        {
+
+            ToTable("Adminnistrativo");
+
+            HasKey(c => c.AdminId);
+        }
+
+        
     }
 }

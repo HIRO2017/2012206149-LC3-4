@@ -10,5 +10,12 @@ namespace _2012206149.PER.EntityTypeConfigurations
 {
     public class TipoViajeConfiguration : EntityTypeConfiguration<TipoViaje>
     {
+        public TipoViajeConfiguration()
+        {
+
+            ToTable("TipoViaje");
+
+            HasKey(c => c.tipoViajeId);
+        }
     }
 }

@@ -10,5 +10,13 @@ namespace _2012206149.PER.EntityTypeConfigurations
 {
     public class TipoTripulacionConfiguration : EntityTypeConfiguration<TipoTripulacion>
     {
+
+        public TipoTripulacionConfiguration()
+        {
+
+            ToTable("Tripulacion");
+
+            HasKey(c => c.tipoTripuId);
+        }
     }
 }

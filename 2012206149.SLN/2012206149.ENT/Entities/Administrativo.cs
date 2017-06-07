@@ -11,5 +11,7 @@ namespace _2012206149.ENT.Entities
         public int AdminId { get; set; }
         public string nombre { get; set; }
         public string direccion { get; set; }
+
+
     }
 }
